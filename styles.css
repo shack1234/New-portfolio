@@ -1,0 +1,78 @@
+body{
+    background-color: white;
+    /* background-image: url("./pictures/image2.jpeg"); */
+    background-repeat: no-repeat;
+    background-size:100%;
+    color:maroon;
+    overflow-y: scroll;
+    overflow-x: hidden;
+ }
+
+ .nav-menu ul{
+    padding: 0;
+    margin: 8px 0 0 0;
+    list-style: none;
+    display: inline;
+    font-weight: 400;
+ }
+ .nav-menu{
+  overflow: hidden;
+	background-color: white;
+	text-align: right;
+	position: relative;
+	margin-bottom: 0em;
+   padding:0;
+}
+.nav-menu a{
+    color:maroon;
+    float: right;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 14px 16px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    position: relative;
+    font-size: 17px;
+    padding: 30px 12px;
+
+}
+a {
+    color: #FFC300;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; 
+}
+.nav-menu a:hover{
+	color:gold;
+  text-decoration: none;
+	background-color:white;
+}
+h2{
+    text-align: center;
+    color:gold;
+}
+#logo{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 600;  
+    font-family: 'Marck Script', cursive;
+    font-family: 'Pinyon Script', cursive;
+    font-family: 'Niconne', cursive;
+    font-family: 'Faster One', cursive;
+    font-family: 'Akronim', cursive;
+    color: orange;
+
+}
+.col-xs-2{
+    width: 16.66667%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:gold;
+  }
