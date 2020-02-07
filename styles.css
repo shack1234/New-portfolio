@@ -173,3 +173,50 @@ footer{
       background-color:gold;
     }
   /*  END OF FOOTER STYLING */
+  /* contact css */
+  .contact{
+    padding-top: 50px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./pictures/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.contact p{
+  text-align:center;
+  font-size: large;
+}
+.contact h1{
+  text-align: center;
+  color:goldenrod;
+}
+.contact .row{
+    padding: 30px 0;
+    font-size: 22px;
+}
+.contact .col-md-4 .fa{
+    padding: 10px;
+    font-size: 30px;
+}
+i{
+  text-align: center;
+}
+.contact .btn{
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+}
+.contact .btn:focus{
+    box-shadow: none !important;
+}
+.contact .btn:hover{
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    transition: 0.6s;
+}
+.contact .btn .fa{
+    margin-right: 10px;
+}
+/* end of contact css */
