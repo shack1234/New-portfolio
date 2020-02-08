@@ -17,6 +17,6 @@ New-portfolio is a landing page where details of me are included. on the landing
 * Email:shadrackanayo@gmail.com
 
 ### License
-In the event of forking,this licence and duplicate must be retuurned to the owner of the website.
+
 
 Copyright (c) Feb 2020 Shadrack Anayo || All Rights Reserved
