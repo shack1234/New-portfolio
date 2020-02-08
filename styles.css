@@ -11,16 +11,21 @@ body{
     padding: 0;
     margin: 8px 0 0 0;
     list-style: none;
-    display: inline;
+    display: inline-block;
     font-weight: 400;
  }
  .nav-menu{
-  overflow: hidden;
+    overflow: hidden;
 	background-color: white;
 	text-align: right;
-	position: relative;
+	position: sticky;
 	margin-bottom: 0em;
-   padding:0;
+    padding:0;
+    padding: 6px 16px;
+    border-radius: 1000px;
+    color: var(--black-600);
+    white-space: nowrap;
+    box-sizing: border-box;
 }
 .nav-menu a{
     color:maroon;
@@ -32,7 +37,7 @@ body{
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    position: relative;
+    position: sticky;
     font-size: 17px;
     padding: 30px 12px;
 
